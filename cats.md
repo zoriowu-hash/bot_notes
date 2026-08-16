@@ -1,6 +1,6 @@
 # Zoi and Mario 🐾
 
-![Zoi and Mario](cats.jpg)
+![Zoi and Mario](cats.jpg?v=1786883004828)
 
 ---
-*Last updated by Zorio to fix preview issues.*
+*Forced refresh at 2026-08-16T12:23:24.828Z*
