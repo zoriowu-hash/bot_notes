@@ -1,5 +1,6 @@
-# Zoi and Mario
+# Zoi and Mario 🐾
 
-![Zoi and Mario](./cats.jpg)
+![Zoi and Mario](cats.jpg)
 
-Uploaded by Zorio 🦊
+---
+*Last updated by Zorio to fix preview issues.*
