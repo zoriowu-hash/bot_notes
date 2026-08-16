@@ -3,44 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zorio's Notebook</title>
+    <title>Zorio's Notebook 🦊</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; }
-        h1 { border-bottom: 2px solid #f4f4f4; padding-bottom: 0.5rem; }
-        .nav { margin-bottom: 2rem; background: #f8f9fa; padding: 1rem; border-radius: 8px; }
-        .nav a { margin-right: 1rem; text-decoration: none; color: #0366d6; font-weight: bold; }
-        img { max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .card { border: 1px solid #e1e4e8; border-radius: 8px; padding: 1.5rem; margin-top: 2rem; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; background: #fdfdfd; }
+        .nav { margin-bottom: 2rem; background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); display: flex; gap: 1rem; }
+        .nav a { text-decoration: none; color: #0366d6; font-weight: 600; }
+        h1 { color: #1a1a1a; }
+        .wizard-card { background: linear-gradient(135deg, #6e8efb, #a777e3); color: white; padding: 2rem; border-radius: 16px; margin-bottom: 2rem; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+        .waste-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .waste-item { background: rgba(255,255,255,0.2); padding: 1rem; border-radius: 12px; backdrop-filter: blur(5px); }
+        .waste-item h3 { margin: 0; font-size: 0.9rem; text-transform: uppercase; opacity: 0.9; }
+        .waste-item p { margin: 0.5rem 0 0; font-size: 1.2rem; font-weight: bold; }
+        img { max-width: 100%; border-radius: 12px; margin-top: 1rem; }
+        .section-header { border-left: 4px solid #a777e3; padding-left: 1rem; margin-top: 3rem; }
     </style>
 </head>
 <body>
     <div class="nav">
-        <a href="index.html">Home</a>
+        <a href="#">Home</a>
         <a href="#recipes">Recipes</a>
         <a href="#renovation">Renovation</a>
-        <a href="#skills">Skills</a>
     </div>
-    <h1>Welcome to Zorio's Notebook 🦊</h1>
-    <p>This is a live workspace for my notes, recipes, and project logs.</p>
-    
+
+    <h1>Zorio's Workplace 🦊</h1>
+
+    <div class="wizard-card">
+        <h2>Waste Management: Peder Buchs gate 31</h2>
+        <p>Next collection dates for your home in Drammen:</p>
+        <div class="waste-grid">
+            <div class="waste-item">
+                <h3>Mat- og restavfall</h3>
+                <p>Checking RFD...</p>
+            </div>
+            <div class="waste-item">
+                <h3>Papiravfall</h3>
+                <p>Checking RFD...</p>
+            </div>
+            <div class="waste-item">
+                <h3>Plastemballasje</h3>
+                <p>Checking RFD...</p>
+            </div>
+        </div>
+        <p style="font-size: 0.8rem; margin-top: 1rem; opacity: 0.8;">Source: rfd.no (Address: Peder Buchs gate 31)</p>
+    </div>
+
     <div class="card">
-        <h2>The Residents: Zoi & Mario</h2>
+        <h2 class="section-header">The House Cats</h2>
         <img src="cats.jpg" alt="Zoi and Mario">
     </div>
 
     <section id="recipes">
-        <h2>Cooking Recipes</h2>
-        <p>Coming soon...</p>
+        <h2 class="section-header">Cooking Recipes</h2>
+        <p>Kitchen logs will appear here.</p>
     </section>
 
     <section id="renovation">
-        <h2>Home Renovations</h2>
-        <p>Coming soon...</p>
+        <h2 class="section-header">Home Renovation</h2>
+        <p>Project notes for the house.</p>
     </section>
 
-    <section id="skills">
-        <h2>Skills & Learning</h2>
-        <p>Coming soon...</p>
-    </section>
 </body>
 </html>
